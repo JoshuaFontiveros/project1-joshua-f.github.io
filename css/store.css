@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-inline: auto;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    resize: none;
+ }
+ footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+ .container-fluid {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: sticky;
+
+ }
+
+ body {
+     width: 100%;
+ }
+
+ nav {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ label {
+     display: block;
+     cursor: pointer;
+     width: 26px;
+     float: right;
+ }
+ .hamburger-menu {
+     border: 2px solid black;
+     text-align: center;
+     width: 1000px;
+     display: none;
+     clear: right;
+ }
+
+ .hamburger-menu li {
+     display: block;
+     border-bottom: solid 5px black;
+     margin: 0;
+     color: yellow;
+     background-color: black;
+     opacity: 90%;
+ }
+
+ #hamburger, #toggle {
+     height: 200px;
+ }
+
+ #toggle, #hamburger {
+     display: contents;
+ }
+
+ #toggle:checked + .hamburger-menu {
+    display: block;
+ }
+ #our-menu, .carousel-caption > h1, #pizza-flavor > h2 {
+     font-size: 40px;
+
+ }
+
+ #pizza-flavor {
+     width: 100%;
+     margin-right: 19px;
+ }
+
+ .box-container1 > h2, .box-container2 > h2 {
+    font-size: 25px;
+ }
+
+ .pizza-flavor-container {
+    height: 61.33%;
+    /* border: 2px solid black;  */
+    width: 33.32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 55%;
+    margin-bottom: 16.66%;
+ }
+
+ .box-container2 {
+     /* border: solid 2px black; */
+     position: relative;
+     left: 50px;
+ }
+ .btn-flavors {
+    font-family: 'Style Script', 'Arial', 'sans-serif';
+    color: black;
+    border: none;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+        width: 100%;
+        background-color: rgb(255,252,207);
+        border-radius: 5px;
+   
+}
+
+.btn-flavors-shake1 {
+    margin-top: 17px;
+}
+
+.our-team-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+.franchise-owners-container,
+.franchise-owners-box-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.franchise-owners-box-container {
+    background-color: rgb(255,220,2,0.2);
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.team-images {
+    width: 55%;
+    border-radius: 15px;
+
+}
+
+.img-box {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.details-container {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.name-and-title-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.product-card-container {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.card {
+    width: 150%;
+}
+.reviews-section {
+    display: flex;
+    justify-content: center;    
+}
+.owl-carousel {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    /* border: 2px solid black; */
+}
+.owl-theme {
+    display: none;
+}
+.card2 {
+    width: 100%; 
+}
+.our-team-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+footer {
+    width: 100%;
+}
+

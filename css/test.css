@@ -1,0 +1,70 @@
+
+
+
+
+
+.franchise-owners-container,
+.franchise-owners-box-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.franchise-owners-box-container {
+    background-color: rgb(255,220,2,0.2);
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.team-images {
+    width: 55%;
+    border-radius: 15px;
+
+}
+
+.img-box {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.details-container {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.name-and-title-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.card {
+    width: 150%;
+}
+.reviews-section {
+    display: flex;
+    justify-content: center;    
+}
+.owl-carousel {
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+    /* border: 2px solid black; */
+}
+.owl-theme {
+    display: none;
+}
+.card2 {
+    width: 100%; 
+}
+
+footer {
+    width: 100%;
+}
